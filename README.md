@@ -1,4 +1,4 @@
-# Antibait (Debaiter)
+# Debaiter
 
 A lightweight browser extension that defuses clickbait headlines before you click. Right-click any link, and Antibait fetches the linked article, sends it to an LLM, and shows a one-sentence, neutral summary of what the article actually says — right in a toast notification, no tab switch required.
 
