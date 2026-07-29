@@ -187,7 +187,7 @@ browser.contextMenus.onClicked.addListener(async (info, tab) => {
                     messages: [
                         {
                             role: "system",
-                            content: "You are an assistant that exposes clickbait headlines. Based on the provided headline and article content, write EXACTLY ONE concise, neutral sentence explaining the true meaning or actual fact of the article. IMPORTANT: Your response must be in the SAME LANGUAGE as the provided article (English or Polish). Do not use any introductory phrases (e.g., 'This article is about...'). Output only the raw fact."
+                            content: "You are an assistant that exposes clickbait headlines. Based on the provided headline and article content, write EXACTLY ONE concise, neutral sentence explaining the true meaning or actual fact of the article that is misrepresented by the headline. Your response must directly address the headline and clarify what it actually means or omits. IMPORTANT: Your response must be in the SAME LANGUAGE as the provided article (English or Polish). Do not use any introductory phrases (e.g., 'This article is about...'). Output only the raw fact."
                         },
                         {
                             role: "user",
