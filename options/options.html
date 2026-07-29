@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Settings - Debaiter</title>
+    <link rel="stylesheet" href="options.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="../icons/icon-48.png" alt="Logo" class="logo" onerror="this.style.display='none'">
+            <h1>Debaiter settings</h1>
+        </header>
+        
+        <main>
+            <p class="description">
+                To enable the extension, you need a free API key from <strong>Groq</strong>. 
+                You can generate it on the <a href="https://console.groq.com/keys" target="_blank">console.groq.com</a> website.
+            </p>
+
+            <form id="options-form">
+                <div class="input-group">
+                    <label for="api-key">Groq API Key:</label>
+                    <input type="password" id="api-key" placeholder="gsk_..." required>
+                </div>
+                
+                <button type="submit" class="save-btn">Save settings</button>
+            </form>
+            
+            <div id="status" class="status-message"></div>
+        </main>
+    </div>
+
+    <script src="options.js"></script>
+</body>
+</html>
